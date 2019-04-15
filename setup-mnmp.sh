@@ -15,7 +15,7 @@ brew install nginx
 
 # fix curl https (nginx 502)
 # brew options php56 # see more options
-brew install php71 --with-imap --with-mysql --with-fpm --with-postgresql --without-apache --with-homebrew-openssl --with-homebrew-curl #--with-pdo-oci
+brew install php@72
 # brew search php56-
 # brew uninstall imagemagick && brew install --fresh imagemagick
 brew install php71-imagick --build-from-source

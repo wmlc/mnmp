@@ -5,7 +5,7 @@
 
 MYSQL="/usr/local/bin/mysql.server"
 NGINX="/usr/local/bin/nginx"
-PHPFPM="/usr/local/opt/php71/sbin/php71-fpm" # sys default: "/usr/sbin/php-fpm"
+PHPFPM="/usr/local/Cellar/php@7.2/7.2.17/sbin/php-fpm" # sys default: "/usr/sbin/php-fpm"
 # PIDPATH="/usr/local/var/run"
 param=$1
 type=$2
@@ -16,7 +16,7 @@ start()
     if [ ! -n "$npids" ]; then
         tmp='/usr/local/var/run/nginx/fastcgi_temp'
         [ -d "$tmp" ] && sudo chmod -R 755 $tmp
-        echo "starting php-fpm ..." && $PHPFPM start
+        echo "starting php-fpm ..." && sudo $PHPFPM -D
         # unable to bind listening socket for address '127.0.0.1:xx': Address already in use # killall -c php-fpm
 
         echo "starting nginx ..." && sudo $NGINX # sudo for bind to 0.0.0.0:80
@@ -35,7 +35,7 @@ stop()
 
     echo "stopping mnmp ..."
     # $PHPFPM stop
-    killall -c php-fpm
+    sudo killall -c php-fpm
     # sudo $NGINX -s stop
     sudo killall -c nginx
     # $MYSQL stop

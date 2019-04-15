@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../../www/dp/.idea/dp.iml" filepath="$PROJECT_DIR$/../../www/dp/.idea/dp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../www/dplayer/.idea/dplayer.iml" filepath="$PROJECT_DIR$/../../www/dplayer/.idea/dplayer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../lnmp1.5-full/.idea/lnmp1.5-full.iml" filepath="$PROJECT_DIR$/../lnmp1.5-full/.idea/lnmp1.5-full.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/mnmp.iml" filepath="$PROJECT_DIR$/.idea/mnmp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../www/php_test/.idea/php_test.iml" filepath="$PROJECT_DIR$/../../www/php_test/.idea/php_test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../www/zhuijuwu/.idea/zhuijuwu.iml" filepath="$PROJECT_DIR$/../../www/zhuijuwu/.idea/zhuijuwu.iml" />
+    </modules>
+  </component>
+</project>
