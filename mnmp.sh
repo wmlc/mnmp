@@ -10,6 +10,33 @@ PHPFPM="/usr/local/Cellar/php@7.2/7.2.17/sbin/php-fpm" # sys default: "/usr/sbin
 param=$1
 type=$2
 
+status()
+{
+    npids=`ps aux | grep -i nginx | grep -v grep | awk '{print $2}'`
+    if [ ! -n "$npids" ]; then
+        echo "nginx not running"
+
+    else
+        echo "nginx is running"
+    fi
+
+    npids=`ps aux | grep -i mysql | grep -v grep | awk '{print $2}'`
+    if [ ! -n "$npids" ]; then
+        echo "mysql not running"
+
+    else
+        echo "mysql is running"
+    fi
+
+    npids=`ps aux | grep -i php-fpm | grep -v grep | awk '{print $2}'`
+    if [ ! -n "$npids" ]; then
+         echo "php-fpm not running"
+    else
+        echo "php-fpm is running"
+
+    fi
+}
+
 start()
 {
     npids=`ps aux | grep -i nginx | grep -v grep | awk '{print $2}'`
@@ -47,6 +74,8 @@ stop()
     # /usr/local/opt/php56/sbin/php-fpm -i | grep 'Loaded Configuration File'
     # /usr/local/etc/php/5.6/php.ini, /usr/local/etc/php/5.6/php-fpm.conf, /tmp/php-fpm.log
 case $param in
+    'status')
+        status;;
     'start')
         start;;
     'stop') 
@@ -55,5 +84,5 @@ case $param in
         stop
         start;;
     *)
-    echo "Usage: ./mnmp.sh start | stop | restart";;
+    echo "Usage: ./mnmp.sh status | start | stop | restart";;
 esac

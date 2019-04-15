@@ -6,8 +6,7 @@
       <change beforePath="" afterPath="$PROJECT_DIR$/../../www/php_test/.idea/dictionaries/wml.xml" />
       <change beforePath="" afterPath="$PROJECT_DIR$/../../www/php_test/test1.php" />
       <change beforePath="" afterPath="$PROJECT_DIR$/../../www/php_test/video/zhuijuwu.png" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change beforePath="$PROJECT_DIR$/mnmp.sh" afterPath="$PROJECT_DIR$/mnmp.sh" />
       <change beforePath="$PROJECT_DIR$/../../www/php_test/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../www/php_test/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/../../www/php_test/video/index.htm" afterPath="$PROJECT_DIR$/../../www/php_test/video/index.htm" />
       <change beforePath="$PROJECT_DIR$/../../www/php_test/video/static/front.css" afterPath="$PROJECT_DIR$/../../www/php_test/video/static/front.css" />
@@ -35,8 +34,8 @@
       <file leaf-file-name="mnmp.sh" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mnmp.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="401">
-              <caret line="24" column="30" lean-forward="true" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
+            <state relative-caret-position="477">
+              <caret line="78" column="12" lean-forward="true" selection-start-line="78" selection-start-column="12" selection-end-line="78" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -194,12 +193,12 @@
       <option name="presentableId" value="Default" />
       <updated>1555207741970</updated>
       <workItem from="1555207743113" duration="12000" />
-      <workItem from="1555207816378" duration="5106000" />
+      <workItem from="1555207816378" duration="5627000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5118000" />
+    <option name="totallyTimeSpent" value="5639000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="50" y="23" width="2510" height="1417" extended-state="0" />
@@ -380,8 +379,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mnmp.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
-          <caret line="24" column="30" lean-forward="true" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
+        <state relative-caret-position="477">
+          <caret line="78" column="12" lean-forward="true" selection-start-line="78" selection-start-column="12" selection-end-line="78" selection-end-column="12" />
           <folding />
         </state>
       </provider>
