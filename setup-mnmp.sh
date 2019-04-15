@@ -18,12 +18,12 @@ brew install nginx
 brew install php@72
 # brew search php56-
 # brew uninstall imagemagick && brew install --fresh imagemagick
-brew install php71-imagick --build-from-source
-brew install php71-igbinary
-brew install php71-redis #--with-igbinary --build-from-source
-brew install php71-mcrypt
-brew install php71-memcached
-brew install php71-memcache
+#brew install php71-imagick --build-from-source
+#brew install php71-igbinary
+#brew install php71-redis #--with-igbinary --build-from-source
+#brew install php71-mcrypt
+#brew install php71-memcached
+#brew install php71-memcache
 # brew install php56-tidy
 # brew install php56-xdebug
 
