@@ -6,6 +6,7 @@
 MYSQL="/usr/local/bin/mysql.server"
 NGINX="/usr/local/bin/nginx"
 PHPFPM="/usr/local/Cellar/php@7.2/7.2.17/sbin/php-fpm" # sys default: "/usr/sbin/php-fpm"
+REDIS="/usr/local/Cellar/redis@4.0/4.0.14/bin/redis-server /usr/local/etc/redis.conf"
 # PIDPATH="/usr/local/var/run"
 param=$1
 type=$2
@@ -36,10 +37,19 @@ status()
 
     fi
 
+    npids=`ps aux | grep -i redis-server | grep -v grep | awk '{print $2}'`
+    if [ ! -n "$npids" ]; then
+         echo "redis-server not running"
+    else
+        echo "redis-server is running"
+
+    fi
+
     echo "配置文件位置："
     echo "MySQL /usr/local/etc/my.cnf"
     echo "NGINX /usr/local/etc/nginx/"
     echo "php /usr/local/etc/php/"
+    echo "Redis /usr/local/etc/redis.conf"
 
 }
 
@@ -54,6 +64,8 @@ start()
 
         echo "starting nginx ..." && sudo $NGINX # sudo for bind to 0.0.0.0:80
         $MYSQL start
+
+        echo "starting redis ..." && sudo $REDIS
     else
         echo "already running"
     fi
@@ -73,6 +85,8 @@ stop()
     sudo killall -c nginx
     # $MYSQL stop
     killall -c mysqld
+    # redis stop
+    /usr/local/Cellar/redis@4.0/4.0.14/bin/redis-cli  shutdown
 }
 # config()
     # nginx -V # /usr/local/etc/nginx/nginx.conf

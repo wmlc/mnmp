@@ -29,6 +29,8 @@ brew install php@72
 
 # brew reinstall php56-{xx} --build-from-source
 
+brew install redis@4.0
+
 
 brew install mysql
 # set up mysql to run as user account
