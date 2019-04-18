@@ -9,5 +9,6 @@
     <orderEntry type="module" module-name="dp" />
     <orderEntry type="module" module-name="php_test" />
     <orderEntry type="module" module-name="lnmp1.5-full" />
+    <orderEntry type="module" module-name="zhuijuwu_spider" />
   </component>
 </module>

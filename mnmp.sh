@@ -35,6 +35,12 @@ status()
         echo "php-fpm is running"
 
     fi
+
+    echo "配置文件位置："
+    echo "MySQL /usr/local/etc/my.cnf"
+    echo "NGINX /usr/local/etc/nginx/"
+    echo "php /usr/local/etc/php/"
+
 }
 
 start()
