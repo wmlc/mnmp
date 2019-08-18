@@ -10,5 +10,6 @@
     <orderEntry type="module" module-name="php_test" />
     <orderEntry type="module" module-name="lnmp1.5-full" />
     <orderEntry type="module" module-name="zhuijuwu_spider" />
+    <orderEntry type="module" module-name="touping" />
   </component>
 </module>

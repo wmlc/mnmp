@@ -86,7 +86,7 @@ stop()
     # $MYSQL stop
     killall -c mysqld
     # redis stop
-    /usr/local/Cellar/redis@4.0/4.0.14/bin/redis-cli  shutdown
+    /usr/local/Cellar/redis@4.0/4.0.14/bin/redis-cli  -a 111111 shutdown
 }
 # config()
     # nginx -V # /usr/local/etc/nginx/nginx.conf

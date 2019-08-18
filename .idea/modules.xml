@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/../lnmp1.5-full/.idea/lnmp1.5-full.iml" filepath="$PROJECT_DIR$/../lnmp1.5-full/.idea/lnmp1.5-full.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/mnmp.iml" filepath="$PROJECT_DIR$/.idea/mnmp.iml" />
       <module fileurl="file://$PROJECT_DIR$/../../www/php_test/.idea/php_test.iml" filepath="$PROJECT_DIR$/../../www/php_test/.idea/php_test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../www/touping/.idea/touping.iml" filepath="$PROJECT_DIR$/../../www/touping/.idea/touping.iml" />
       <module fileurl="file://$PROJECT_DIR$/../../www/zhuijuwu/.idea/zhuijuwu.iml" filepath="$PROJECT_DIR$/../../www/zhuijuwu/.idea/zhuijuwu.iml" />
       <module fileurl="file://$PROJECT_DIR$/../../www/zhuijuwu_spider/.idea/zhuijuwu_spider.iml" filepath="$PROJECT_DIR$/../../www/zhuijuwu_spider/.idea/zhuijuwu_spider.iml" />
     </modules>

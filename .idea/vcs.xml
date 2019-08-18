@@ -5,6 +5,7 @@
     <mapping directory="$PROJECT_DIR$/../lnmp1.5-full" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../../www/dp" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../../www/php_test" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../www/touping" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../../www/zhuijuwu_spider" vcs="Git" />
   </component>
 </project>
