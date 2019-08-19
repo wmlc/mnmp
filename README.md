@@ -2,10 +2,10 @@
 nginx+mysql+php for macos
 
 # 安装
-## 1. 把: https://github.com/Espirak/mnmp 的脚本下载下来.
+## 1. 把: https://1290800466@bitbucket.org/1290800466/mnmp.git 的脚本下载下来.
 
 ```bash
-  $ git clone https://github.com/Espirak/mnmp
+  $ git clone git@bitbucket.org:1290800466/mnmp.git
 ```
  安装前请确认安装了homebrew, 就不提了.  
  开始安装: 切换到setup-mnmp.sh目录, 然后执行: ``` $ sh setup-mnmp.sh``` 就等着自动安装吧.
